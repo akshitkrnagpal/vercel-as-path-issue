@@ -5,4 +5,8 @@ const Home = () => {
   return <div>{router.asPath}</div>;
 };
 
+export const getServerSideProps = async () => {
+  return { props: {} };
+};
+
 export default Home;
